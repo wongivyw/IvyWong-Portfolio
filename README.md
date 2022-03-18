@@ -1,2 +1,2 @@
-# IvyWong-Portfolio
- Portfolio 2022
+# Portfolio
+ Ivy Wong Portfolio 2022
