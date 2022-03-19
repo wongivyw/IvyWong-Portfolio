@@ -35,7 +35,7 @@ h3 {
 
 
 /*body text*/
-p, ul, li{
+p, li{
   font-family: 'Raleway', sans-serif;
   font-size: 1rem; /*16px*/
   font-weight: bold;
