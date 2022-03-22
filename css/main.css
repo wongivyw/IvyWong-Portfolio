@@ -212,6 +212,17 @@ section {
   /* background-color: #1E2A51; */
 }
 
+.div-wrap {
+  margin: 1rem;
+}
+
+.hero .image-container {
+  max-width:600px;
+  max-height:600px;
+  width: 100%;
+  height: auto;
+}
+
 /* Hero */
 /* https://www.w3schools.com/howto/howto_css_parallax.asp */
 /* https://unsplash.com/photos/LZ6BTZnizD8 */
