@@ -95,6 +95,10 @@ header img {
   margin-top: 0.2rem;
 }
 
+.logo-nav:hover, .logo-nav:focus {
+  background-color: #1E2A51;
+}
+
 main {
   color: #1E2A51;
   background-color: #1E2A51;
@@ -138,19 +142,30 @@ header * {
 
 header ul {
   display: grid;
+  /* place-items: stretch; */
   grid-template-columns: 1fr;
   justify-content: center;
   padding-bottom: 0.5rem;
   background-color: #1E2A51;
   margin: 0;
+  padding-left: 0;
+
+  transition-property: all;
 }
 
 header li {
   padding-bottom: 0.3rem;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  margin: 0;
 }
 
-header li {
-  margin: auto;
+header li:hover, header li:focus {
+  background-color: #483FBE;
+  display: grid;
+  place-items: center;
+  margin: 0;
 }
 
 header li a { 
@@ -405,8 +420,8 @@ footer .footer-item:focus {
   }
 }
 
-/* 634 px and larger */
-@media (min-width: 39.625rem) { 
+/* 695 px and larger */
+@media (min-width: 43.4375rem) { 
   header {
     position: fixed;
   }    
