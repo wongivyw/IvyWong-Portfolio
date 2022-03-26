@@ -51,10 +51,21 @@ p, li{
 .special-h2 {
   /* font-size: 2rem; */
   color: #483FBE;
+  padding-top: 2.5rem;
+
+}
+
+.contact-special-h2 {
+  /* font-size: 2rem; */
+  color: #483FBE;
+  /* padding-top: 2.5rem; */
+
 }
 
 .special-h3 {
   color: #483FBE;
+  padding-top: 1.5rem;
+
 }
 
 img {
@@ -70,7 +81,7 @@ ul {
 }
 
 ul li {
-  padding: 0.5rem;
+  padding: 0.25rem;
 }
 
 
@@ -288,7 +299,7 @@ section {
 
 .menu-btn {
 /* button { */
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   padding: 0.5rem 1.5rem;
   margin: 0 0.8rem 0.8rem 0;
@@ -308,12 +319,11 @@ section {
 .menu-btn:hover, .menu-btn:focus {
   color: #1E2A51;
   border-width: 2px;
-
   background-color: #EFBE91;
 }
 
 .work-btn {
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   padding: 0.5rem 1.5rem;
   margin: 0 2rem 4rem 0;
