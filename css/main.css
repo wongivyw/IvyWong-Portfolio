@@ -142,7 +142,6 @@ header * {
 
 header ul {
   display: grid;
-  /* place-items: stretch; */
   grid-template-columns: 1fr;
   justify-content: center;
   padding-bottom: 0.5rem;
@@ -153,6 +152,7 @@ header ul {
   transition-property: all;
 }
 
+/* SOURCE: https://stackoverflow.com/questions/50841334/how-to-center-content-and-make-the-background-cover-the-full-column-when-using-c */
 header li {
   padding-bottom: 0.3rem;
   margin: auto;
