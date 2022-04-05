@@ -134,7 +134,7 @@ main {
   overflow-x: hidden;
   overflow-y: hidden;
 
-  padding-bottom: 8rem;
+  padding-bottom: 20rem;
 
 }
 
@@ -282,6 +282,7 @@ section {
 .hero-title h1 {
   font-size: 4.5rem;
   color: #F8F6F3;
+  padding-top: 10rem;
 }
 
 .hero-title h2 {
@@ -530,6 +531,10 @@ footer .footer-item:focus {
   .project-text {
     padding: 2rem;
     margin: auto;
+  }
+
+  .hero-title h1 {
+    padding-top: 3rem;
   }
 }
 
