@@ -508,6 +508,7 @@ footer .footer-item:focus {
     grid-template-columns: 1fr 1fr;
   }
 
+  /* SOURCE: https://css-tricks.com/viewport-sized-typography/ */
   .hero h1 {
     font-size: 12vw;
   }
