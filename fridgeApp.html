@@ -58,13 +58,14 @@
 
           <!-- Update images with emulator -->
           <div class="image-container">
-            <img src="img/fridge-login.png" width="187" height="395">
-            <img src="img/fridge-main.png" width="187" height="395">
-            <img src="img/recipes.png" width="187" height="395">
-            <img src="img/profile.png" width="187" height="395">
-            <img src="img/map.png" width="187" height="395">
-            <img src="img/edit-ingredient.png" width="187" height="395">
+            <img src="img/fridge-login.png" width="187" height="395" alt="fridge login activity">
+            <img src="img/fridge-main.png" width="187" height="395" alt="fridge main activity">
+            <img src="img/recipes.png" width="187" height="395" alt="search recipies activity">
+            <img src="img/profile.png" width="187" height="395" alt="profile activity">
+            <img src="img/map.png" width="187" height="395" alt="map activity">
+            <img src="img/edit-ingredient.png" width="187" height="395" alt="edit ingredient activity">
           </div>
+          <p class="caption">Final iteration of FridgeApp</p>
 
           <h3 class="special-h3">Process and iteration</h3>
           <p>The fridge app is a project I worked on with Gabriela Farhat for my Mobile Computing course (IAT 359). The application acts as a virtual fridge allowing user to add, edit, and remove different ingredients in their fridge. As well, users can search for different recipes based on the ingredients in their list. This course mainly focused on the backend functionality rather than front end design.</p>
@@ -72,20 +73,33 @@
           <p>My partner and I collaborated mainly through GitHub and Discord. Android Studio provides emulators in the software, but I found it much easier to test on an actual Android device.</p>
 
           <p>I worked on the register and login structure for this project using shared preferences, RecyclerView in the fridge activity, the SQLite database structure to store ingredients, the implementation of the Google Maps using their API, and uploading an image from the local device.</p>
-        
+          
           <div> 
-            <img src="img/Draft_login.png" width="188" height="335">
-            <img src="img/Draft_register.png" width="188" height="335">
-            <img src="img/Draft_fridgeMain.png" width="188" height="335">
-            <img src="img/Draft_addIngredient.png" width="188" height="335">
-            <img src="img/Draft_editIngredient.png" width="188" height="335">
-            <img src="img/Draft_recipies.png" width="188" height="335">
+            <img src="img/Draft_login.png" width="188" height="335" alt="login activity layout">
+            <img src="img/Draft_register.png" width="188" height="335" alt="register activity layout">
+            <img src="img/Draft_fridgeMain.png" width="188" height="335" alt="main fridge activity layout">
+            <img src="img/Draft_addIngredient.png" width="188" height="335" alt="add ingredient activity layout">
+            <img src="img/Draft_editIngredient.png" width="188" height="335" alt="edit ingredient activity layout">
+            <img src="img/Draft_recipies.png" width="188" height="335" alt="search recipies activity layout">
           </div>
+          <p class="caption">Protopye of FridgeApp layout</p>
 
-          <h3 class="special-h3">Challenges I encountered</h3>
-          <p>The most worrying aspect that I was responsible for was getting the database to facilitate user registration and login. I began this project with the assumption that our application would be required to store multiple user accounts. However, I was only required to use SharedPreferences to store user credentials and preferences, which made this task a lot simpler for me. </p>
-          <p>Shared Preferences can be used to transfer and store information between activities. The data in Shared Preferences is available to all activities in the program and acts similar to global variables.</p>
-          <p>The most challenging task for me is working on the Recycler View for the fridge activity. I had trouble converting the data inputted by the user that is achieved in another activity. I was able to solve this by first gaining more concrete knowledge of Recycler Views and understanding that each element in a Recycler View should have its own layout.</p>
+          <h3 class="special-h3">Challenges</h3>
+          <p>I was responsible for user registration and login using SQLite. I initially assumed we needed to store multiple user accounts which was a big challenge for me. However, I was only required to use SharedPreferences to store user credentials and preferences, which made this task a lot simpler.</p>
+
+          <p>Shared Preferences transfers information between activities. This data is available to all activities in the program and acts similar to global variables.</p>
+
+          <div><img src="img/recyclerView.png" width="430" height="473" alt="RecyclerView illustration"></div>
+
+          <p>Another challenge is the Recycler View for the fridge activity. Adding items to the RecyclerView gave me errors as I transferred user input from another activity. I solved this by extensive research to further my understanding of the RecyclerView. Turns out each element in a RecyclerView should have its own layout.</p>
+
+          <!-- SOURCE: https://www.justinmind.com/blog/app-interaction-gestures/ -->
+          <div><img src="img/mobile-app-gestures.png" width="427" height="407" alt="Mobile app gestures"></div>
+          <p class="caption">Mobile gestures</p>
+
+          <h3 class="special-h3">What I learned</h3>
+          <p>With basic functionality of a virtual fridge, I would like to allow multiple users on the system. Right now, registering a new user will overwrite the previous one. Another limitation is that the Fridge App being limited to Android devices means it cannot be run on approximately one half of users’ devices. </p>
+          <p>I gained an understanding of how mobile applications are created working on this project. The nature of interactions is different in mobile as users touch and drag the screen as opposed to performing mouse clicks and key presses. </p>
         </div>
       </div>
       <!-- // Work -->  

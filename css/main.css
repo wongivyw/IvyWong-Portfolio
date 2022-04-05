@@ -89,6 +89,14 @@ img {
   height: auto;
 }
 
+.caption {
+  display: inline-block;
+  color: #1E2A51;
+  padding: 0 0.5rem;
+  background-color: #F3D9C0;
+  font-size: 0.85rem;
+}
+
 ul {
   display: grid;
   grid-template-columns: 1fr;
