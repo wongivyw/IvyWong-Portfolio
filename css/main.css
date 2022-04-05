@@ -282,7 +282,11 @@ section {
 .hero-title h1 {
   font-size: 4.5rem;
   color: #F8F6F3;
-  padding-top: 10rem;
+}
+
+.other-hero .hero-title h1 {
+    padding-top: 10rem;
+
 }
 
 .hero-title h2 {
@@ -533,7 +537,7 @@ footer .footer-item:focus {
     margin: auto;
   }
 
-  .hero-title h1 {
+  .other-hero .hero-title h1 {
     padding-top: 3rem;
   }
 }
