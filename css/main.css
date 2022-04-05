@@ -454,6 +454,7 @@ section {
 /* Footer */
 footer * {
   display: inline;
+  padding: 0;
 }
 
 .footer-section {
