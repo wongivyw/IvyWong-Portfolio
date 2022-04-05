@@ -60,6 +60,22 @@ p, li{
   color: #483FBE;
   /* padding-top: 2.5rem; */
 
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-columns:400px minmax(400px, auto); */
+  /* width: fit-content; */
+
+
+}
+
+.contact-title {
+  color: #EFBE91;
+}
+
+.contact-info {
+  color: #1E2A51;
+  margin-bottom: 3rem;;
+  margin-top: 0.5rem;
 }
 
 .special-h3 {
@@ -101,7 +117,23 @@ header img {
 main {
   color: #1E2A51;
   background-color: #1E2A51;
+  /* background-image: url('../img/contact-background.jpg'); */
   overflow-x: hidden;
+}
+
+.other-hero {
+  /* background-image: url('../img/contact-background.jpg'); */
+
+  /* SOURCE: https://stackoverflow.com/questions/21666620/abstract-wave-using-css */
+  background-image: -webkit-linear-gradient(#1E2A51, #483FBE);
+  background-image: -moz-linear-gradient(#1E2A51, #483FBE);
+  background-image: -o-linear-gradient(#1E2A51, #483FBE);
+  background-image: linear-gradient(#1E2A51, #483FBE);
+  height: auto;
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 
 /* https://www.w3schools.com/howto/howto_js_shrink_header_scroll.asp */
@@ -226,7 +258,6 @@ section {
 /* https://www.w3schools.com/howto/howto_css_parallax.asp */
 /* https://unsplash.com/photos/LZ6BTZnizD8 */
 .hero-section {
-  background-image: url('../img/hero.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -445,9 +476,26 @@ footer .footer-item:focus {
   text-decoration: underline;
 }
 
+/* 444px and smaller */
+@media (max-width: 27.75rem) {
+  footer ul {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-section {
+    height: auto;
+  }
+  .footer-item {
+    margin: 1rem;
+  }
+  .footer-inline {
+    margin: 0;
+    text-align: center;
+  }
+}
 
-/* 505px and smaller*/
-@media (max-width: 31.5625rem) {
+/* 580px and smaller */
+@media (max-width: 36.25rem) {
   .hero-btn, .menu-btn, .work-btn{
     display: grid;
     grid-template-columns: 1fr;
@@ -510,9 +558,11 @@ footer .footer-item:focus {
 
 /* 912px and larger */
 @media (min-width: 57rem) {
-  /* ul {
-    grid-template-columns: 1fr 1fr;
-  } */
+  .contact-special-h2 {
+    grid-template-columns:400px minmax(400px, auto);
+    width: fit-content;
+  }
+
 }
 
 /* 1180 px and larger*/
