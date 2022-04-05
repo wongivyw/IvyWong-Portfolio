@@ -134,6 +134,8 @@ main {
   overflow-x: hidden;
   overflow-y: hidden;
 
+  padding-bottom: 8rem;
+
 }
 
 /* https://www.w3schools.com/howto/howto_js_shrink_header_scroll.asp */
@@ -494,6 +496,7 @@ footer .footer-item:focus {
   }
 }
 
+
 /* 580px and smaller */
 @media (max-width: 36.25rem) {
   .hero-btn, .menu-btn, .work-btn{
@@ -504,6 +507,15 @@ footer .footer-item:focus {
   .img-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .hero h1 {
+    font-size: 12vw;
+  }
+
+  .hero h2 {
+    font-size: 6vw;
+  }
+
 }
 
 /* 583px and smaller */
