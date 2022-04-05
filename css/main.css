@@ -351,6 +351,60 @@ section {
   grid-template-columns: 1fr;
 }
 
+/* project card */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.project-card-wrap {  
+  display: grid;
+  /* grid-template-columns: 1fr 2fr;
+  grid-auto-columns: auto; */
+
+  grid-gap:10px;
+  /* SOURCE: https://elad.medium.com/becoming-a-css-grid-ninja-f4c6db018cc1 */
+  grid-template-columns:200px minmax(200px, auto);
+  width: fit-content;
+
+  background: #F3F3F3;
+  border: 3px solid #E7E7E7;
+  /* border-top: 6px solid #483FBE; */
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  transition: all 0.2s;
+}
+
+.project-card-wrap:hover, .project-card-wrap:focus {
+  background: #E7E7E7;
+  border: 3px solid #483FBE;
+  /* border-top: 6px solid #483FBE; */
+
+}
+
+.project-text {
+  padding-right: 2rem;
+}
+
+.project-text a {
+  text-decoration: none;
+}
+
+.project-title {
+  color: #1E2A51;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.project-icon {
+  margin: 2rem;
+  justify-content: right;
+}
+
+.project-desc {
+  max-width: 20rem;
+}
+
 /* Footer */
 footer * {
   display: inline;
@@ -401,6 +455,20 @@ footer .footer-item:focus {
 
   .img-grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 583px and smaller */
+@media (max-width: 36.4375rem) {
+  .project-card-wrap {
+    grid-template-columns: 1fr;
+    /* SOURCE: https://stackoverflow.com/questions/45536537/centering-in-css-grid */
+    align-items: center;
+    justify-items: center; 
+  }
+  .project-text {
+    padding: 2rem;
+    margin: auto;
   }
 }
 
