@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ivy Wong</title>
+    <title>Ivy Wong - Projects</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
@@ -26,7 +26,7 @@
             <li class="logo-nav">
                 <img class="header-title" src="img/logo-dark.png" width="64" height="64" alt="Initials as logo">
             </li>
-            <li class="about-nav"><a href="#about" class="header-btn">About</a></li>
+            <li class="about-nav"><a href="index.html" class="header-btn">About</a></li>
             <li class="work-nav"><a href="fridgeApp.html" class="header-btn">Work</a></li> 
             <li class="contact-nav"><a href="contact.html" class="header-btn">Contact</a></li>
         </ul>
@@ -81,8 +81,9 @@
             <img src="img/Draft_addIngredient.png" width="188" height="335" alt="add ingredient activity layout">
             <img src="img/Draft_editIngredient.png" width="188" height="335" alt="edit ingredient activity layout">
             <img src="img/Draft_recipies.png" width="188" height="335" alt="search recipies activity layout">
+            <!-- <img src="img/sqlite.png" width="703" height="780" alt="register activity layout"> -->
           </div>
-          <p class="caption">Protopye of FridgeApp layout</p>
+          <p class="caption">Fridge App first iteration layout designs</p>
 
           <h3 class="special-h3">Challenges</h3>
           <p>I was responsible for user registration and login using SQLite. I initially assumed we needed to store multiple user accounts which was a big challenge for me. However, I was only required to use SharedPreferences to store user credentials and preferences, which made this task a lot simpler.</p>
@@ -92,13 +93,21 @@
           <div><img src="img/recyclerView.png" width="430" height="473" alt="RecyclerView illustration"></div>
 
           <p>Another challenge is the Recycler View for the fridge activity. Adding items to the RecyclerView gave me errors as I transferred user input from another activity. I solved this by extensive research to further my understanding of the RecyclerView. Turns out each element in a RecyclerView should have its own layout.</p>
+          
+          <div>
+            <img src="img/camera.png" width="941" height="449" alt="code converting bitmap to byte array">
+          </div>
+          <p class="caption">Storing captured image into database</p>
+          <p>I spent the most time implementing the camera functionality with my partner. After many unsuccessful attempts at storing the captured image into the database, my partner and I were out of ideas.</p>
+          <p>A productive way I found to solve these challenges is to discuss the issue with someone. In this case, my partner and I discussed why each method failed and discovered the solution by testing the unsuccessful methods.</p>
+
+          <h3 class="special-h3">What I learned</h3>
+          <p>With basic functionality of a virtual fridge, I would like to allow multiple users on the system. Right now, registering a new user will overwrite the previous one. Another limitation is that the Fridge App being limited to Android devices means it cannot be run on approximately one half of users’ devices. </p>
 
           <!-- SOURCE: https://www.justinmind.com/blog/app-interaction-gestures/ -->
           <div><img src="img/mobile-app-gestures.png" width="427" height="407" alt="Mobile app gestures"></div>
           <p class="caption">Mobile gestures</p>
 
-          <h3 class="special-h3">What I learned</h3>
-          <p>With basic functionality of a virtual fridge, I would like to allow multiple users on the system. Right now, registering a new user will overwrite the previous one. Another limitation is that the Fridge App being limited to Android devices means it cannot be run on approximately one half of users’ devices. </p>
           <p>I gained an understanding of how mobile applications are created working on this project. The nature of interactions is different in mobile as users touch and drag the screen as opposed to performing mouse clicks and key presses. </p>
         </div>
       </div>

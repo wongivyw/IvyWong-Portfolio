@@ -215,8 +215,13 @@ header li a {
 header .header-btn {
   color: #F8F6F3;
   transition: all 0.2s;
-  padding: 1rem;
-  transition: all 0.2s;
+  /* SOURCE: https://stackoverflow.com/questions/5581799/how-to-stretch-div-height-to-fill-parent-div-css */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  /* SOURCE: https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css */
+  line-height: 5rem;
 }
 
 header .header-btn:focus, .header-btn:hover {
@@ -581,9 +586,6 @@ footer .footer-item:focus {
   }
   .img-grid {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  header .header-btn {
-    padding: 1.5rem 2rem;
   }
 }
 
