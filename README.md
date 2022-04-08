@@ -8,7 +8,7 @@ Resources to make this portfolio:
 
 - https://elad.medium.com/becoming-a-css-grid-ninja-f4c6db018cc1
 
--https://css-tricks.com/viewport-sized-typography/
+- https://css-tricks.com/viewport-sized-typography/
 
 - https://stackoverflow.com/questions/45536537/centering-in-css-grid
 
